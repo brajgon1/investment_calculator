@@ -9,6 +9,7 @@ import { InvestmentInput } from '../investment-input.model';
   templateUrl: './user-input.component.html',
   styleUrl: './user-input.component.css',
 })
+// using signals
 export class UserInputComponent {
   calculate = output<InvestmentInput>();
   enteredInitialInvestment = signal('0');
